@@ -18,6 +18,7 @@ Let's look at what is in the output topology (topol.top). Again, using a plain t
 .. code-block::
 
    #include "oplsaa.ff/forcefield.itp"
+   #include "gromos53a5.ff/forcefield.itp"  #forcefield 15 in new gromacs version
 
 This line calls the parameters within the OPLS-AA force field. It is at the beginning of the file, indicating that all subsequent parameters are derived from this force field. The next important line is [ moleculetype ], below which you will find
 
